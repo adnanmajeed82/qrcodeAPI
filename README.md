@@ -1,0 +1,2 @@
+# qrcodeAPI
+QRCodeGenerationDRF_API
