@@ -1,0 +1,11 @@
+class LeaveView(viewsets.ModelViewSet):
+    queryset=Leave.objects.all()
+    serializer_class= leaveSerializer
+
+class TotalView(viewsets.ModelViewSet):
+    queryset=Total.objects.all()
+    serializer_class=TotalSerializer
+    
+class EmployeeView(viewsets.ModelViewSet):
+    queryset=Employee.objects.all()
+    serializer_class=EmployeeSerializer
