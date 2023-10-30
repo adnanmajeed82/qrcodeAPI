@@ -3,3 +3,5 @@ djangorestframework
 drf_yasg
 generics
 qrcode
+bytesbufio
+Pillow
